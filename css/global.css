@@ -1,0 +1,56 @@
+@import url("../foundation/stylesheets/foundation.min.css");
+@import url("../foundation/stylesheets/responsive-tables.css");
+@import url("../foundation/foundation_icons_general_enclosed/stylesheets/general_enclosed_foundicons.css");
+@import url("../foundation/stylesheets/offcanvas.css");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700");
+h1,h2,h3,h4,h5,h6,body{font-family: 'Open Sans Condensed', sans-serif;}
+body{overflow-x: hidden}
+ul{list-style: none}
+.top-bar { min-height: 45px; margin: 0 0 30px 0;}
+#setCurrency{margin: 0}
+#searchModal{padding-top: 0;padding-bottom: 0}
+.products_block li{list-style: none}
+.products_block ul{padding-top: 5px}
+.moredetails{position: relative}
+.productimg{position: relative}
+.productimg .new{position: absolute;left: 2px;bottom: 2px}
+.products_block li i{font-size: 21px}
+.products_block li .price{line-height: 30px}
+fieldset i{font-size: 18px}
+#left_column .custom.dropdown{width: 100% !important}
+#featured img{width: 100%}
+#reinsurance {list-style: none}
+#reinsurance img {display: none}
+nav .foundicon-cart{font-size: 23px}
+#cart_block{display: block !important;height: auto !important}
+
+header .menu-action {
+    float: left;
+    position: relative;
+    top: 1px;
+    margin-top: -12px;
+    padding: 10px 10px 0 10px;
+}
+.ajax_block_product{list-style: none}
+.ajax_block_product a{position: relative}
+.ajax_block_product label{display: none}
+.ajax_block_product a .new{position: absolute;left: 2px;bottom: 2px}
+.align_center{text-align: center}
+.exclusive.ajax_add_to_cart_button{padding-left:0 !important;margin-left: 0px}
+.button.small.exclusive,.button.small.exclusive_disabled{padding: 7px 14px 8px !important; height: auto !important}
+.span_link.zoom{font-size: 24px; position: absolute;right: 10px; bottom: 10px}
+#view_full_size {position: relative}
+#usefull_link_block {width: 100%;float: left}
+#view_scroll_right{position: absolute;right: -10px;bottom:-54px}
+#view_scroll_left{position: absolute;left: -10px;bottom:-54px}
+#views_block{position: relative}
+body#module-favoriteproducts-account #left_column {display:block}
+body#module-favoriteproducts-account #center_column {width:initial}
+#right_column{padding-top: 10px}
+.powered{display: none}
+@media only screen and (max-width: 767px) {
+    header .twelve .row{border-bottom: 1px solid #eee;margin-bottom: 2px}
+}
+@media only screen and  (min-width: 768px) { 
+    #main{margin-right: 0}
+}
