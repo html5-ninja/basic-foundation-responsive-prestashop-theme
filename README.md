@@ -26,4 +26,5 @@ Basic Foundation is a free responsive PrestaShop theme based on Foundation 3 fro
 - Icon Fonts
 
 *live demo & doc available on http://html5-ninja.com/item/Basic-Foundation-responsive-PrestaShop-theme/10
+
 *Don't Forget to Share http://html5-ninja.com :)  thank you 
