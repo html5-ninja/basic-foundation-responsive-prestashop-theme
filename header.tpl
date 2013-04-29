@@ -7,7 +7,7 @@
 <html>
     <head>
         <title>{$meta_title|escape:'htmlall':'UTF-8'}</title>
-        <meta name="viewport" content="width=device-width" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         {if isset($meta_description) AND $meta_description}
             <meta name="description" content="{$meta_description|escape:html:'UTF-8'}" />
         {/if}
